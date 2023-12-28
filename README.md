@@ -1,6 +1,7 @@
 # StudentManagement
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.10.
+This simple test project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.10.
+Login(with email, with Google), Register and forgot password implemented with firebase.
 
 ## Development server
 

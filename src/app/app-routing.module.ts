@@ -5,6 +5,7 @@ import { DashboardComponent } from './component/dashboard/dashboard.component';
 import { RegisterComponent } from './component/register/register.component';
 import { ForgotPasswordComponent } from './component/forgot-password/forgot-password.component';
 import { VerifyEmailComponent } from './component/verify-email/verify-email.component';
+import { FileUploadComponent } from './component/file-upload/file-upload.component';
 
 const routes: Routes = [
   {path: '', redirectTo: 'login', pathMatch: 'full'},
@@ -12,7 +13,8 @@ const routes: Routes = [
   {path: 'dashboard', component: DashboardComponent},
   {path: 'register', component: RegisterComponent},
   {path: 'forgot-password', component: ForgotPasswordComponent},
-  {path: 'verify-email', component: VerifyEmailComponent}
+  {path: 'verify-email', component: VerifyEmailComponent},
+  {path: 'file-upload', component: FileUploadComponent}
 ];
 
 @NgModule({
